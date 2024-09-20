@@ -35,7 +35,7 @@ class Charge_Activity : AppCompatActivity() {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
             finish() // Cierra la actividad de carga
-        }, 3000) // 3000 milisegundos = 2 segundos
+        }, 3000) // 3000 milisegundos = 3 segundos
     }
 
 
