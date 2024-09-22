@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Círculo completo con gradiente radial -->
+    <item>
+        <shape
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shape="oval">
+            <gradient
+                android:centerX="50%"
+                android:centerY="50%"
+                android:endColor="#1D84B4"
+                android:gradientRadius="55dp"
+                android:startColor="#01295F"
+                android:type="radial" />
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+        </shape>
+
+
+    </item>
+
+
+
+</layer-list>
