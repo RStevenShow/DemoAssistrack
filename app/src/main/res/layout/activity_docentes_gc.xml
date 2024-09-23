@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".docentes_GC">
+    tools:context=".UI.docentes_GC">
 
     <Button
         android:id="@+id/btnVolver"

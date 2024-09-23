@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:foregroundTint="#8A0909"
-    tools:context=".Login">
+    tools:context=".UI.Login">
 
 
     <ImageView
