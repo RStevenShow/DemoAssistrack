@@ -40,9 +40,9 @@ android {
 
 dependencies {
 
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-
+    implementation("com.android.volley:volley:1.2.1")
+    implementation ("com.google.code.gson:gson:2.8.9") // Para manejar JSON
+    implementation ("com.squareup.okhttp3:okhttp:4.9.3") // Para realizar peticiones HTTP
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

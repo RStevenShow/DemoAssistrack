@@ -1,6 +1,6 @@
 package com.example.demoassistrack.Model
 
 data class LoginRequest(
-    val Email: String,
+    val Usuario: String,
     val contrasena: String
 )
