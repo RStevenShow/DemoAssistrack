@@ -17,6 +17,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".UI.activity_estudiantesCodigo"
+            android:exported="false" />
+        <activity
+            android:name=".UI.activity_estudiantes"
+            android:exported="false" />
+        <activity
             android:name=".UI.activity_decano"
             android:exported="false" />
         <activity

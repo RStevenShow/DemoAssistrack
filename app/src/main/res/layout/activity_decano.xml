@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="395dp"
-        android:layout_height="500dp"
+        android:layout_width="445dp"
+        android:layout_height="594dp"
         android:src="@drawable/circle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,21 +31,21 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="340dp"
-        android:layout_height="322dp"
+        android:layout_width="366dp"
+        android:layout_height="406dp"
         android:src="@drawable/square"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.644"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView17"
-        app:layout_constraintVertical_bias="0.379" />
+        app:layout_constraintVertical_bias="0.337" />
 
     <Button
         android:id="@+id/btnReportesDecano"
         android:layout_width="276dp"
         android:layout_height="60dp"
-        android:layout_marginTop="288dp"
+        android:layout_marginTop="364dp"
         android:backgroundTint="#1D84B5"
         android:fontFamily="@font/asgalt_regular"
         android:text="Reportes"
@@ -66,7 +66,7 @@
         android:id="@+id/btnUsersDeca"
         android:layout_width="260dp"
         android:layout_height="62dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="532dp"
         android:backgroundTint="#1D84B5"
         android:fontFamily="@font/asgalt_regular"
         android:text="Usuarios"
@@ -87,7 +87,7 @@
         android:id="@+id/btnGroupdecano"
         android:layout_width="327dp"
         android:layout_height="64dp"
-        android:layout_marginTop="372dp"
+        android:layout_marginTop="440dp"
         android:backgroundTint="#1D84B5"
         android:fontFamily="@font/asgalt_regular"
         android:text="GruposdeClases"
@@ -99,7 +99,7 @@
         app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />

@@ -138,14 +138,14 @@
 
     <Spinner
         android:id="@+id/spCarrera"
-        android:layout_width="318dp"
-        android:layout_height="27dp"
+        android:layout_width="314dp"
+        android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView16"
         app:layout_constraintEnd_toEndOf="@+id/imageView16"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="@+id/imageView16"
         app:layout_constraintTop_toTopOf="@+id/imageView16"
-        app:layout_constraintVertical_bias="0.765" />
+        app:layout_constraintVertical_bias="0.821" />
 
     <TextView
         android:id="@+id/textView12"
@@ -155,6 +155,8 @@
         android:text="Estudiantes De:"
         android:textColor="#000000"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="456dp" />
+        app:layout_constraintBottom_toTopOf="@+id/spCarrera"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/txtng2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
