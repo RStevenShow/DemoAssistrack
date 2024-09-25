@@ -43,6 +43,8 @@ dependencies {
     implementation("com.android.volley:volley:1.2.1")
     implementation ("com.google.code.gson:gson:2.8.9") // Para manejar JSON
     implementation ("com.squareup.okhttp3:okhttp:4.9.3") // Para realizar peticiones HTTP
+    implementation ("com.journeyapps:zxing-android-embedded:4.1.0")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

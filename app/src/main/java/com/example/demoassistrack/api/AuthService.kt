@@ -12,7 +12,7 @@ class AuthService {
 
     fun login(context: Context, url: String, username: String, password: String, callback: (Boolean, String?) -> Unit) {
         val stringRequest = object : StringRequest(
-            Request.Method.POST, url,
+            Method.POST, url,
             Response.Listener { response ->
                 try {
                     // Procesar la respuesta JSON

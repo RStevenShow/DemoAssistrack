@@ -5,47 +5,48 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
     tools:context=".UI.activity_estudiantes">
 
     <Button
-        android:id="@+id/btnEscanearQR"
-        android:layout_width="329dp"
-        android:layout_height="65dp"
-        android:backgroundTint="#B1B4B6"
+        android:id="@+id/btnescaner"
+        android:layout_width="313dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#01295F"
         android:fontFamily="@font/asgalt_regular"
         android:text="Escanear QR"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="48sp"
         app:icon="@drawable/icons8_qr_50"
         app:iconPadding="8dp"
         app:iconSize="48dp"
-        app:iconTint="#01295F"
+        app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageView30"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:layout_constraintVertical_bias="0.326" />
+        app:layout_constraintVertical_bias="0.302" />
 
     <Button
         android:id="@+id/btnCodigo"
         android:layout_width="344dp"
         android:layout_height="72dp"
-        android:backgroundTint="#B1B4B6"
+        android:backgroundTint="#01295F"
         android:fontFamily="@font/asgalt_regular"
         android:text="Ingresar Codigo"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="48sp"
         app:icon="@drawable/icons8_escribir_100"
         app:iconPadding="8dp"
         app:iconSize="48dp"
-        app:iconTint="#01295F"
+        app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageView30"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:layout_constraintVertical_bias="0.668" />
+        app:layout_constraintVertical_bias="0.679" />
 
     <ImageView
         android:id="@+id/imageView30"
@@ -53,10 +54,8 @@
         android:layout_height="97dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.997"
+
         app:srcCompat="@drawable/cuadro2" />
 
     <ImageView
@@ -84,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnEscanearQR"
+        app:layout_constraintTop_toBottomOf="@+id/btnescaner"
         app:layout_constraintVertical_bias="0.11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
